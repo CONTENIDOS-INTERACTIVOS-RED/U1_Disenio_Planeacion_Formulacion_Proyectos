@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 Esta unidad presenta una guía sobre el diseño, planeación y gestión de proyectos. Inicia con los datos generales del equipo de producción y responsables de contenido. La Unidad 1 desarrolla los fundamentos del diseño de proyectos, incluyendo su definición, tipos, ciclo de vida y principios de gestión. También aborda la identificación de necesidades, formulación de objetivos SMART, establecimiento de indicadores y resultados esperados. Se exploran metodologías como PMBOK, PRINCE2 y Scrum, además de recursos tecnológicos y bibliográficos actualizados que fortalecen las competencias en la gestión de proyectos.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Cada proyecto es una oportunidad para transformar ideas en realidad y dejar un impacto positivo en el mundo.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -145,13 +145,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    transition: all 0.4s ease-in-out
+    background-color: $color-btn-fondo !important
+    color: $color-btn-texto !important
   .icon
-    transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    transition: all 0.4s ease-in-out
+    background-color: darken($color-btn-fondo, 20%) !important
   &:hover
     .icon
-      transform: scale(1.06)
+      transform: scale(1.05)
+      cursor: pointer
 </style>
