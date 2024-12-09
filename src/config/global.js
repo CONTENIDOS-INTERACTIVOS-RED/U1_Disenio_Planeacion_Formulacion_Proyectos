@@ -15,44 +15,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Definición de proyecto y tipos de proyectos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: '¿Qué es la gestión de proyectos?',
             hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -60,38 +30,32 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Fases del ciclo de vida del proyecto.',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Planeación',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Ejecución del proyecto',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Seguimiento y control del proyecto y de las tareas',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Listado',
+            titulo: 'Cierre del proyecto',
             hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -99,22 +63,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Objetivos, indicadores y resultados esperados',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -154,109 +104,65 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Cerezuela, B. & Ollé, C. (2018). Gestión de proyectos paso a paso: ( ed.). Editorial UOC.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/116314?page=6',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Córdoba Padilla, M. (2011). Formulación y evaluación de proyectos: ( ed.). Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69169',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Torres Hernández, Z. (2014). Administración de proyectos: ( ed.). Grupo Editorial Patria.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39414?page=24',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'PMBOK',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        '(Project Management Body of Knowledge) es un conjunto de estándares, mejores prácticas, guías y terminología para la gestión de proyectos, desarrollado por el Project Management Institute (PMI). El PMBOK proporciona un marco general que ayuda a los gestores de proyectos a aplicar procesos y técnicas para planificar, ejecutar, monitorear y completar proyectos de manera eficaz. Está compuesto por cinco grupos de procesos (inicio, planificación, ejecución, monitoreo y control, y cierre) y diez áreas de conocimiento.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Scrum',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es una metodología ágil de gestión de proyectos que se utiliza especialmente en el desarrollo de software, aunque también se puede aplicar a otros tipos de proyectos. Scrum se estructura en sprints (períodos cortos de trabajo de una o dos semanas) durante los cuales los equipos multifuncionales trabajan en el desarrollo de productos o funcionalidades. El equipo Scrum se organiza en roles específicos (Product Owner, Scrum Master y equipo de desarrollo) y emplea reuniones periódicas como las "Daily Scrums" para revisar el progreso y ajustar el trabajo.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Kanban',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es un sistema de gestión visual utilizado para controlar el flujo de trabajo, comúnmente aplicado en la gestión de proyectos y producción. Se basa en tarjetas o post-its que representan tareas o fases del trabajo y se mueven a través de columnas que representan los diferentes estados del flujo de trabajo (por ejemplo, "Por hacer", "En progreso", "Hecho"). La metodología Kanban busca mejorar la eficiencia, evitar cuellos de botella y asegurar un flujo continuo de tareas.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Método Delphi',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'es una técnica de previsión y toma de decisiones en la que se busca llegar a un consenso mediante la consulta a un panel de expertos. A través de rondas sucesivas de encuestas o cuestionarios, los expertos proporcionan su opinión de forma anónima. Después de cada ronda, se comparten los resultados con el grupo para que ajusten o refinen sus respuestas en base a las opiniones de los demás, hasta alcanzar un acuerdo o consenso razonable.',
     },
     {
-      termino: 'Moda',
+      termino: 'Metodología PRINCE2',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        '(Projects IN Controlled Environments) es una metodología estructurada para la gestión de proyectos. Se basa en principios bien definidos y establece un enfoque claro para planificar, gestionar y controlar proyectos de manera eficiente. PRINCE2 divide los proyectos en etapas gestionables y proporciona un marco para asignar roles, tomar decisiones y gestionar riesgos. Es una de las metodologías de gestión de proyectos más utilizadas en el Reino Unido y Europa.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Metodologías ágiles',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'son un conjunto de enfoques para la gestión de proyectos que priorizan la flexibilidad, la colaboración y la entrega continua de productos o servicios de valor. Estas metodologías se centran en el desarrollo incremental e iterativo, con ciclos de trabajo cortos llamados sprints o iteraciones. Los equipos ágiles trabajan de manera colaborativa, revisan constantemente sus avances y hacen ajustes rápidos según las necesidades o los comentarios de los clientes. Ejemplos de metodologías ágiles son Scrum, Kanban, y Extreme Programming (XP).',
     },
     {
-      termino: 'DIseño',
+      termino: 'Microsoft Project',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'es una herramienta de software diseñada para la gestión de proyectos. Permite planificar, programar, asignar recursos, realizar un seguimiento del progreso, gestionar presupuestos y analizar la carga de trabajo. Es muy útil para la creación de diagramas de Gantt, calendarios de tareas, y para la gestión de múltiples proyectos en una sola vista. Es ampliamente utilizada por gestores de proyectos en diversos sectores.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Análisis de impacto cruzado',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'es una técnica que se utiliza para estudiar las interrelaciones entre diversos eventos o factores dentro de un proyecto. Se evalúa cómo un cambio en un factor puede influir en otros, permitiendo identificar dependencias y riesgos asociados a estos impactos. Esta herramienta es común en la planificación de proyectos, análisis de escenarios y toma de decisiones en entornos complejos.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Brainstorming',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es una técnica creativa en la que un grupo de personas genera una gran cantidad de ideas o soluciones sobre un tema o problema específico en un corto período de tiempo, sin filtrar o criticar inicialmente las propuestas. El objetivo es fomentar el pensamiento libre y explorar tantas ideas como sea posible, para luego evaluar y seleccionar las más viables.',
     },
   ],
   complementario: [

@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'2. Fases del ciclo de vida del proyecto.'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
 
     .row.mb-5
       .col-lg-4.order-lg-2
@@ -65,7 +65,7 @@
 
     p(data-aos="fade-left") La planificación de un proyecto implica concretar los objetivos a alcanzar y detallar las actividades necesarias para lograrlos. Esto incluye desglosar el trabajo en paquetes y asignarles los recursos adecuados, estimar su duración y costo, e integrarlas en un cronograma, estableciendo su relación con otras tareas. También se debe planificar la gestión de la calidad, la interacción con todas las partes interesadas, la comunicación de avances y resultados, así como la administración del equipo y los recursos materiales.
 
-    .bg-full-width.bg-color-4
+    .bg-full-width.bg-color-4.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg
@@ -108,6 +108,111 @@
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema2/3.png')
+
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Ejecución del proyecto  
+    
+    .row.mb-5
+      .col-lg-4.order-lg-2
+        figure
+          img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8.order-lg-1
+        .bg-color-2.p-4(data-aos="fade-left").mb-4
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 La fase de ejecución es el momento clave del proyecto. Las tareas planificadas se están llevando a cabo, se están generando los resultados o entregables parciales previstos, el equipo está dedicado a las actividades, se emplean los recursos materiales, se incurren en costos y el cronograma avanza. En esta etapa, el gestor del proyecto se enfoca en la gestión diaria, asegurando que las tareas se realicen, supervisando al equipo, garantizando la calidad tanto del proceso como del producto, gestionando las expectativas de los interesados, administrando recursos económicos, humanos y materiales, resolviendo incidencias y tomando decisiones oportunas.
+
+        p(data-aos="fade-left") Las etapas de la ejecución de un proyecto incluyen varios aspectos clave que aseguran su correcto desarrollo:
+
+
+    TabsC.color-acento-contenido.mb-5
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Lanzamiento del proyecto" :icon="require('@/assets/bullets/tab-2-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Alcance
+            p Marca el inicio oficial de la ejecución, comunicando el comienzo del proyecto al equipo y a los interesados. Se revisan los objetivos, el alcance, los roles y responsabilidades, así como el cronograma, asegurando los recursos necesarios para iniciar las tareas.
+        
+          .col-md-6.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/6.png', alt='')
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Gestión de incidencias y cambios" :icon="require('@/assets/bullets/tab-2-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Gestión de incidencias y cambios
+            p En esta etapa, se gestionan los imprevistos que surgen y que pueden afectar el plan original. Implica identificar, evaluar y resolver incidencias, además de gestionar cualquier cambio en el alcance, cronograma o presupuesto para que no comprometan el éxito del proyecto.
+        
+          .col-md-6.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/11.png', alt='')
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Gestión de los interesados" :icon="require('@/assets/bullets/tab-2-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
+            h4 Gestión de los interesados
+            p Consiste en mantener una relación activa con todos los involucrados, alineando sus expectativas con los resultados del proyecto mediante comunicación efectiva y gestión de conflictos o ajustes en sus necesidades a lo largo del proceso.
+          .col-md-6.col-lg-5.col-xl-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/12.png', alt='', style="width: 100%;")
+
+    #t_2_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] Seguimiento y control del proyecto y de las tareas
+
+    .row.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Una vez que el proyecto inicia, el gestor se encarga de supervisar su desarrollo diario, asegurándose de que se ejecuten las tareas necesarias para verificar los requisitos y generar los entregables acordados. Esto incluye documentar el trabajo a través de informes, actualizar los planes del proyecto y realizar previsiones. Este proceso iterativo se lleva a cabo durante toda la duración del proyecto, manteniendo el avance conforme a lo planificado en términos de alcance, costos, tiempo y calidad.
+
+        p(data-aos="fade-left") Además, la evaluación del proyecto puede apoyarse en herramientas como gráficos de Gantt para el seguimiento de tareas, matrices de riesgos para identificar y mitigar problemas, y software de gestión de proyectos que facilite la colaboración y comunicación del equipo. También se emplean técnicas como revisiones periódicas y reuniones de seguimiento para ajustar el enfoque según sea necesario y asegurar que el proyecto esté alineado con los objetivos establecidos.
+
+    #t_2_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.4] Cierre del proyecto
+
+    //p(data-aos="fade-left").mb-4 Al llegar al final del proyecto y haber producido todos los entregables, estos deben ser entregados al cliente. La forma de entrega depende del tipo de proyecto; por ejemplo, en proyectos de investigación o consultoría, puede incluir una serie de documentos, mientras que en otros casos podría implicar la implementación de un sistema de información, la provisión de un servicio documental o la instalación de una herramienta tecnológica. Además, es fundamental asegurarse de que el cliente reciba la capacitación necesaria para utilizar los entregables de manera adecuada.
+        
+    .row.mb-5
+      .col-lg-4.order-lg-2
+        figure
+          img(src="@/assets/curso/tema2/10.png", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8.order-lg-1
+        
+        p(data-aos="fade-left").mb-4 Al llegar al final del proyecto y haber producido todos los entregables, estos deben ser entregados al cliente. La forma de entrega depende del tipo de proyecto; por ejemplo, en proyectos de investigación o consultoría, puede incluir una serie de documentos, mientras que en otros casos podría implicar la implementación de un sistema de información, la provisión de un servicio documental o la instalación de una herramienta tecnológica. Además, es fundamental asegurarse de que el cliente reciba la capacitación necesaria para utilizar los entregables de manera adecuada.
+        
+        .bg-color-4.py-4.px-5(data-aos="fade-left").mb-4
+
+          p.mb-4 Lo invitamos a navegar el documento Cierre del proyecto, en el cual podrá conocer los aspectos principales del proceso de cierre del proyecto, detectar necesidades y oportunidades para el diseño del proyecto, así como conocer las herramientas como FODA y PESTEL para analizar los factores internos y externos que permiten identificar áreas de mejora y oportunidades en proyectos sociales y de inversión. 
+
+          a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+            .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p <strong>Anexo. </strong> Cierre del proyecto
+
+    //- .bg-full-width.bg-color-4
+    //-   .px-4.p-md-5
+    //-     .row.justify-content-center.align-items-center
+    //-       .col-lg-7
+    //-         h2.mb-4(data-aos="flip-up") Cierre del proyecto
+    //-         p.mb-4(data-aos="fade-right") Lo invitamos a navegar el documento Cierre del proyecto, en el cual podrá conocer los aspectos principales del proceso de cierre del proyecto, detectar necesidades y oportunidades para el diseño del proyecto, así como conocer las herramientas como FODA y PESTEL para analizar los factores internos y externos que permiten identificar áreas de mejora y oportunidades en proyectos sociales y de inversión. 
+
+    //-         a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-             img(src="@/assets/template/icono-pdf.svg")
+    //-           .anexo__texto
+    //-             p <strong>Anexo. </strong> Cierre del proyecto
+
+    //-       .col-lg-5
+    //-         figure(data-aos="zoom-in")
+    //-           img(src='@/assets/curso/tema3/9.png', alt='')
+    
 </template>
 
 <script>

@@ -169,7 +169,7 @@
       .px-4.px-md-5.pb-md-3
 
         TabsC.color-acento-contenido.mb-5
-          .tabs-content.border.px-4.p-md-5.py-3(titulo="Alcance" :icon="require('@/assets/bullets/icon-tab-c.svg')" )
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Alcance" :icon="require('@/assets/bullets/tab-1.svg')" )
             .row
               .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
                 h4 Alcance
