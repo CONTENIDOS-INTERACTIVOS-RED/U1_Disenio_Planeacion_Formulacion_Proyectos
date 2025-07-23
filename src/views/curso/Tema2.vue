@@ -47,7 +47,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-7
               h5 Selección del proyecto
-              p Una vez detectadas las oportunidades, se evalúa su viabilidad técnica y económica para facilitar la toma de decisiones. Este análisis permite identificar limitaciones, descubrir oportunidades, definir requisitos, evaluar opciones y alcanzar un consenso sobre el rumbo del proyecto, utilizando metodologías cuantitativas y cualitativas.
+              p Este proceso abarca la clasificación de proyectos, definición de criterios de evaluación, recepción de propuestas y evaluación para crear el portafolio. El gestor de proyectos, si participa en esta gestión, debe aceptar o rechazar proyectos, comunicar prioridades, equilibrar el portafolio y supervisar el avance, alineándose con la estrategia organizacional.
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema2/slider-3.png")
@@ -131,7 +131,7 @@
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Lanzamiento del proyecto" :icon="require('@/assets/bullets/tab-2-1.svg')" )
         .row
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-            h4 Alcance
+            h4 Lanzamiento del proyecto
             p Marca el inicio oficial de la ejecución, comunicando el comienzo del proyecto al equipo y a los interesados. Se revisan los objetivos, el alcance, los roles y responsabilidades, así como el cronograma, asegurando los recursos necesarios para iniciar las tareas.
         
           .col-md-6.col-lg-5.col-xl-4
@@ -212,6 +212,30 @@
     //-       .col-lg-5
     //-         figure(data-aos="zoom-in")
     //-           img(src='@/assets/curso/tema3/9.png', alt='')
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116314?page=6" target="_blank" rel="noopener noreferrer") Cerezuela, B. & Ollé, C. (2018). Gestión de proyectos paso a paso: ( ed.). Editorial UOC.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/N-Bpni0oHPY?si=bgT4rgRehdU-qg0v" target="_blank" rel="noopener noreferrer") CEC - IAEN (6 de mayo de 2016) Ciclo de vida de un proyecto – SNAP Video Youtube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.atlassian.com/es/work-management/project-management/project-life-cycle" target="_blank" rel="noopener noreferrer") Atlassian. Ciclo de vida de los proyectos: explicación de las cinco fases.
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     
 </template>
 

@@ -150,9 +150,9 @@ export default {
         'son un conjunto de enfoques para la gestión de proyectos que priorizan la flexibilidad, la colaboración y la entrega continua de productos o servicios de valor. Estas metodologías se centran en el desarrollo incremental e iterativo, con ciclos de trabajo cortos llamados sprints o iteraciones. Los equipos ágiles trabajan de manera colaborativa, revisan constantemente sus avances y hacen ajustes rápidos según las necesidades o los comentarios de los clientes. Ejemplos de metodologías ágiles son Scrum, Kanban, y Extreme Programming (XP).',
     },
     {
-      termino: 'Microsoft Project',
+      termino: '<em>Microsoft Project</em>',
       significado:
-        'es una herramienta de software diseñada para la gestión de proyectos. Permite planificar, programar, asignar recursos, realizar un seguimiento del progreso, gestionar presupuestos y analizar la carga de trabajo. Es muy útil para la creación de diagramas de Gantt, calendarios de tareas, y para la gestión de múltiples proyectos en una sola vista. Es ampliamente utilizada por gestores de proyectos en diversos sectores.',
+        'es una herramienta de software diseñada para la gestión de proyectos. Permite planificar, programar, asignar recursos, realizar un seguimiento del progreso, gestionar presupuestos y analizar la carga de trabajo. Es muy útil para la creación de diagramas de Gantt, calendarios de tareas, y para la gestión de múltiples proyectos en una organización. Es ampliamente utilizado por gestores de proyectos en diversos sectores.',
     },
     {
       termino: 'Análisis de impacto cruzado',
@@ -160,7 +160,7 @@ export default {
         'es una técnica que se utiliza para estudiar las interrelaciones entre diversos eventos o factores dentro de un proyecto. Se evalúa cómo un cambio en un factor puede influir en otros, permitiendo identificar dependencias y riesgos asociados a estos impactos. Esta herramienta es común en la planificación de proyectos, análisis de escenarios y toma de decisiones en entornos complejos.',
     },
     {
-      termino: 'Brainstorming',
+      termino: '<em>Brainstorming</em>',
       significado:
         'es una técnica creativa en la que un grupo de personas genera una gran cantidad de ideas o soluciones sobre un tema o problema específico en un corto período de tiempo, sin filtrar o criticar inicialmente las propuestas. El objetivo es fomentar el pensamiento libre y explorar tantas ideas como sea posible, para luego evaluar y seleccionar las más viables.',
     },

@@ -118,7 +118,7 @@
             .col-lg-auto
               img(src="@/assets/curso/tema1/8.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Un proyecto debe permitir transformar una idea general en un producto o servicio específico. Sin embargo, no es necesario que siempre culmine con la producción o implementación de dicho producto o servicio, ya que puede limitarse únicamente a su diseño. Es decir, un proyecto puede enfocarse solo en el diseño, o en la ejecución, o en ambos aspectos. Por ejemplo, en el desarrollo de aplicaciones, un proyecto podría centrarse en la creación conceptual, identificando las necesidades del cliente, alineándose con su estrategia, recopilando requisitos y definiendo las funcionalidades. No obstante, la implementación final del diseño podría ser realizada por otra organización.
+              p.mb-0 La gestión de proyectos se refiere a la aplicación de conocimientos, habilidades, herramientas y técnicas para planificar, ejecutar, supervisar y cerrar un proyecto de manera exitosa. Esta disciplina abarca diversas áreas clave, como la definición de objetivos, la asignación de recursos, la gestión de riesgos, la coordinación de equipos y la medición del progreso. Su objetivo principal es asegurar que el proyecto cumpla con los requisitos establecidos, respetando los tiempos y recursos disponibles, minimizando riesgos y maximizando la calidad del resultado final.
 
       .col-lg-4
         figure(data-aos="fade-right").h-100
@@ -227,7 +227,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             h2.mb-4(data-aos="flip-up") Tipos de proyectos
-            p.mb-4(data-aos="fade-right") En el documento Tipos de Proyectos , se presentan clasificaciones según su naturaleza, área funcional y fines, destacando proyectos dependientes, sociales, productivos y de infraestructura, entre otros. Cada tipo aborda necesidades específicas con ejemplos prácticos. Se invita a consultar el documento para ampliar esta información.
+            p.mb-4(data-aos="fade-right") En el documento Tipos de Proyectos, se presentan clasificaciones según su naturaleza, área funcional y fines, destacando proyectos dependientes, sociales, productivos y de infraestructura, entre otros. Cada tipo aborda necesidades específicas con ejemplos prácticos. Se invita a consultar el documento para ampliar esta información.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -238,6 +238,32 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/20.png', alt='')
+
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            // Referencias agregadas según formato solicitado
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/39414?page=24" target="_blank" rel="noopener noreferrer") Torres Hernández, Z. (2014). Administración de proyectos: ( ed.). Grupo Editorial Patria.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/MlyrriEzx3o?si=IB8_BekY3XofQGFv" target="_blank" rel="noopener noreferrer") CEC - IAEN (6 de mayo 2016) ¿Qué es la gestión de proyectos? Video.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://arantxa.ii.uam.es/~proyectos/teoria/C3_Tipos%20de%20proyectos.pdf" target="_blank" rel="noopener noreferrer") Universidad autónoma de Madrid (2014) Tipos de proyecto
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

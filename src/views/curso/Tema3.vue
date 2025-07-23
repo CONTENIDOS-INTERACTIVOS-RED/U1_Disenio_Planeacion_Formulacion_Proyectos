@@ -98,14 +98,210 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema3/9.png', alt='')
+
+
+
+    .bg-full-width.border-top.actividad.bg-color-actividad.mb-0
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/69169" target="_blank" rel="noopener noreferrer") Córdoba Padilla, M. (2011). Formulación y evaluación de proyectos: ( ed.). Ecoe Ediciones.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/DQlp0DvPBwU?si=K_NvIE68OEsIoJUI" target="_blank" rel="noopener noreferrer") LA PROFE MÓNICA (18 de febrero 2023) ¡Superfórmula! para redactar OBJETIVOS / Objetivos generales / objetivos específicos. Video Youtube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://asana.com/es/resources/how-project-objectives" target="_blank" rel="noopener noreferrer") Asana. Cómo redactar objetivos de un proyecto que sean eficaces (incluye ejemplos).
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'En la fase de planificación, ¿qué herramienta se utiliza para desglosar las tareas y asignarles recursos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Gráficos de Gantt',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Análisis de viabilidad',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Diagrama de causa-efecto',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Encuestas de calidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Los gráficos de Gantt son la herramienta utilizada para desglosar las tareas y asignarles recursos en la fase de planificación.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las herramientas utilizadas en la fase de planificación de proyectos.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué incluye la etapa de cierre en un proyecto de inversión?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Capacitar al cliente en el uso de los entregables',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Establecer el alcance',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Gestionar recursos humanos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Documentar los objetivos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La etapa de cierre incluye capacitar al cliente en el uso de los entregables.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa qué actividades incluye la etapa de cierre en un proyecto de inversión.',
+          },
+          {
+            id: 3,
+            texto:
+              '"Durante la operación se verifica que el proyecto cumpla con las expectativas de rendimiento y se ajustan procesos para maximizar la eficiencia, asegurando que genere los beneficios previstos".',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Durante la operación se verifica que el proyecto cumpla con las expectativas de rendimiento y se ajustan procesos para maximizar la eficiencia.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las actividades que se realizan durante la etapa de operación del proyecto.',
+          },
+          {
+            id: 4,
+            texto:
+              '"La planificación de la comunicación es necesaria para mantener a las partes interesadas informadas y alineadas con los avances del proyecto, promoviendo una relación colaborativa y fluida."',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La planificación de la comunicación es necesaria para mantener a las partes interesadas informadas y alineadas con los avances del proyecto.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa la importancia de la planificación de la comunicación en proyectos.',
+          },
+          {
+            id: 5,
+            texto:
+              'En una sustentación final te piden escoger un enfoque que permita definir objetivos específicos, medibles, alcanzables, realistas y con un plazo definido, que facilite la gestión clara y estructurada de un proyecto ¿Qué metodología recomendarías para definir los objetivos en la fase de definición formal?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Metodología Ágil',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Smart',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Diagrama de Gantt',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Evaluación de riesgos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La metodología SMART es la recomendada para definir objetivos específicos, medibles, alcanzables, realistas y con un plazo definido.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las metodologías para definir objetivos en la fase de definición formal de proyectos.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -116,7 +312,6 @@ export default {
 </script>
 
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>
